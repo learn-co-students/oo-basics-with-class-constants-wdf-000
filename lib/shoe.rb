@@ -6,6 +6,7 @@ class Shoe
   BRANDS = []
   def initialize(brand)
     @brand = brand
+    #BRANDS << brand unless BRANDS.include?(brand)
     # since we are creating instances like this Shoe.new(brand)
     self.brand = brand 
   end
